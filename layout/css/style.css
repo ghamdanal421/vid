@@ -1,0 +1,246 @@
+/*-----------------------------------------------
+Wellness Template Style
+Name:        Vid
+Version:     Pro Version 1.0 
+Author:      Ghamdan AL-Seydy
+Author Url:  https://www.team-designer.com
+----------------------------------------------- */
+
+/* Start Global */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    overflow-x: hidden
+}
+
+body {
+    overflow: hidden;
+	font-family: "Noto Kufi Arabic", "Open Sans", sans-serif;
+	direction: rtl;
+    background-color: #e6e8f0;
+
+
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+img {
+	width: 100%
+}
+
+h2, h3, h4 {
+    font-weight: bold
+} 
+
+p {
+    line-height: 40px;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+hr {
+    border: 1px solid #efe6e6;
+}
+:root {
+    --mincolor: #5c258d;
+    --opacolor: #6b4f9f;
+    --backcolor: linear-gradient(to right,#3fb574,#7affb6);
+    --backcolorleft: linear-gradient(to left,#3fb574,#7affb6);
+    --backcolorbottom: linear-gradient(to bottom,#7affb6,#3fb574);
+}
+
+.container {
+    width: 1200px;
+    margin: auto
+}
+
+
+.clearfix {
+	clear: both;
+}
+
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3)
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px var(--mincolor);
+    box-shadow: inset 0 0 6px var(--mincolor)
+
+}
+
+
+/* End Global */
+
+/* Start Header */
+
+header {
+    overflow: hidden;
+    padding: 15px 0;
+    background: #FFF;
+
+
+}
+
+header .logo, header form, header .login {
+    float: right;
+    width: 33.333333333333%;
+}
+header .logo h1 {
+    margin: 0;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+header .logo h1 b {
+    color: var(--mincolor);
+}
+
+header .logo p {
+    line-height: 1;
+    margin: 0;
+}
+
+header form {
+    padding: 0 20px;
+position: relative;
+    margin-top: 8px;
+
+}
+header form input[type="search"] {
+    width: 100%;
+    padding: 0 5px;
+    outline: none;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+}
+header form button {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    border: 0;
+    background: initial;
+    color: #555;
+}
+header .login {
+	    text-align: left;
+    margin-top: 8px;
+}
+
+header .login button {
+    letter-spacing: -1px;
+    border: 0;
+    background: var(--opacolor);
+    color: #FFF;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 3px 8px;
+}
+/* End Header */
+
+/* Start Navbar */
+
+nav.navbar {
+    overflow: hidden;
+    background: #5c258d;
+	color: #FFF;
+	padding: 5px 0;
+	position: relative;
+	z-index: 33;
+
+
+}
+
+
+.navbar .links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.navbar .links li:first-child{
+	margin-right: 0;
+}
+
+
+/* End Navbar */
+
+
+
+/* @Start page Index */
+
+.widget-ads {
+    max-height: 90px;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 782px;
+}
+.widget-ads img {
+	    height: 90px;
+
+}
+.content-wrapper {
+    overflow: hidden;
+}
+.content-wrapper .main-wrapper {
+    float: right;
+    width: 66.6666666%;
+    background: #FFF;
+    border-radius: 3px;
+    margin-bottom: 15px;
+	padding: 0 10px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.06), 0 2px 3px rgba(0,0,0,0.1);}
+.content-wrapper .main-wrapper > h3 {
+    margin: 0;
+    border-bottom: 1px solid #eee;
+    min-height: 35px;
+    font-size: 16px;
+	margin-bottom: 10px;
+}
+.content-wrapper .main-wrapper article {
+    float: right;
+    width: 25%;
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+.content-wrapper .main-wrapper article h2 {
+    margin: 0;
+    font-size: 13px;
+    text-align: center;
+    color: #333;
+    line-height: 1;
+}
+.content-wrapper .sidebar-wrapper {
+    float: right;
+    width: 33.3333333%;
+    padding-right: 35px;
+}
+
+.content-wrapper .sidebar-wrapper section {
+    border-top: 3px solid var(--mincolor);
+    background: #FFF;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.06), 0 2px 3px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+
+}
+.content-wrapper .sidebar-wrapper section h3 {
+    margin: 0;
+    padding: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+/* @End page Index */

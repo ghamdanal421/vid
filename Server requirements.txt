@@ -1,0 +1,12 @@
+Server requirements
+PHP 7.1 +
+MySQLi PHP Extension
+PDO PHP Extension
+cURL PHP Extension
+OpenSSL PHP Extension
+MBString PHP Extension
+iconv PHP Extension
+IMAP PHP Extension
+GD PHP Extension
+Zip PHP Extension
+allow_url_fopen

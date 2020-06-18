@@ -1,0 +1,25 @@
+# Added URL SEO Friendly | by: Ghamdan Al-Seydy
+RewriteEngine on
+
+AddDefaultCharset UTF-8
+
+#\\R//#
+
+Options -Indexes
+
+AddCharset UTF-8 .php
+LimitRequestBody 10000000
+SetOutputFilter DEFLATE
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([0-9a-zA-Z_-]+)$ $1.php [NC,L]
+
+#RewriteCond %{HTTPS} off
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+#RewriteRule ^user/([^/]+) user.php?usergh=$1 [NC,L]
+
+
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
+
